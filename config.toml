@@ -1,0 +1,29 @@
+[general]
+cpus = 12
+editor = "vi"
+doas = false
+language = "en-US"
+noconfirm = false
+
+[aur]
+build = "/home/nullen/.cache/aura/builds"
+cache = "/home/nullen/.cache/aura/cache"
+clones = "/home/nullen/.cache/aura/packages"
+hashes = "/home/nullen/.cache/aura/hashes"
+chroot = []
+ignores = []
+git = false
+hotedit = false
+shellcheck = false
+diff = false
+delmakedeps = false
+clean = false
+warn_unknowns = true
+nocheck = false
+skipdepcheck = false
+reverse = false
+
+[backups]
+snapshots = "/home/nullen/.cache/aura/snapshots"
+automatic = true
+
